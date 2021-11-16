@@ -81,7 +81,7 @@ export const images = () => {
           ]
         })
       ], {
-        verbose: true
+        verbose: false
       }
       ))
       .pipe(dest('project/img'))
