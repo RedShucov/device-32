@@ -10,3 +10,35 @@
   --purple: #af4fff;
   --red: #ff3d3d;
 }
+
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Rubik";
+  font-display: swap;
+  src: url(../fonts/rubik/rubik-400.woff2) format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Rubik";
+  font-display: swap;
+  src: url(../fonts/rubik/rubik-700.woff2) format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 800;
+  font-family: "Rubik";
+  font-display: swap;
+  src: url(../fonts/rubik/rubik-800.woff2) format("woff2");
+}
+
+@font-face {
+  font-style: normal;
+  font-weight: 800;
+  font-family: "Raleway";
+  font-display: swap;
+  src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
+}
