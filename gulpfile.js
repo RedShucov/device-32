@@ -59,7 +59,7 @@ export const js = () => {
 
 // Fonts
 export const fonts = () => {
-  return src('src/fonts/**.woff2')
+  return src('src/fonts/*/**.woff2')
     .pipe(dest('project/fonts'))
 }
 
