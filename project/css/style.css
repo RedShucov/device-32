@@ -42,3 +42,13 @@
   font-display: swap;
   src: url(../fonts/raleway/raleway-800.woff2) format("woff2");
 }
+
+body {
+  width: 1160px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Rubik", "Arial", sans-serif;
+  color: var(--black-lite);
+  background-color: var(--white);
+}
