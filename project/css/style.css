@@ -87,6 +87,14 @@ body {
   text-decoration: none;
 }
 
+.page-title {
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+  font-family: "Raleway", "Arial", sans-serif;
+  color: var(--black);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
