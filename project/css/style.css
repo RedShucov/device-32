@@ -156,6 +156,12 @@ body {
   list-style: none;
 }
 
+.about-us__delivery-item {
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--black);
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
