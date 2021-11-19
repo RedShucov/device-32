@@ -71,9 +71,9 @@ body {
 
 .main-navigation {
   font-weight: 800;
+  line-height: 21px;
   font-family: "Raleway", "Arial", sans-serif;
   text-transform: uppercase;
-  line-height: 21px;
 }
 
 .main-navigation__list {
@@ -85,6 +85,7 @@ body {
 .main-navigation__link {
   color: var(--black);
   text-decoration: none;
+  letter-spacing: 0.2em;
 }
 
 .page-title {
