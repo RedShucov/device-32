@@ -135,6 +135,27 @@ body {
   font-family: "Raleway", "Arial", sans-serif;
 }
 
+.services__controls {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 21px;
+  font-family: "Raleway", "Arial", sans-serif;
+  color: var(--black);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.services__controls-item--active {
+  color: var(--yellow);
+}
+
+.services__slider {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
