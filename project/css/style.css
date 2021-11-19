@@ -69,6 +69,24 @@ body {
   text-decoration: none;
 }
 
+.main-navigation {
+  font-weight: 800;
+  font-family: "Raleway", "Arial", sans-serif;
+  text-transform: uppercase;
+  line-height: 21px;
+}
+
+.main-navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-navigation__link {
+  color: var(--black);
+  text-decoration: none;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
