@@ -162,6 +162,18 @@ body {
   color: var(--black);
 }
 
+.contacts__subtitle {
+  font-size: 24px;
+}
+
+.contacts__address {
+  font-style: normal;
+}
+
+.contacts__phonenumber {
+  color: inherit;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
