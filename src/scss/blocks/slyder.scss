@@ -5,6 +5,30 @@
   list-style: none;
 }
 
+.slider__slide {
+  display: none;
+
+  background: linear-gradient(0deg, #ffffff 80%, #ffe17f 0%);
+}
+
+.slider__slide--active {
+  display: flex;
+
+  column-gap: 40px;
+}
+
+
+.slider__feature-list {
+  display: flex;
+
+  column-gap: 20px;
+}
+
+.slider__feature-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .slider__feature-name {
   font-size: 16px;
 }
