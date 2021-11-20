@@ -1,11 +1,9 @@
 .page-header {
+  box-sizing: border-box;
   width: 1160px;
   min-height: 209px;
   margin: 0 auto;
+  padding: 0 60px;
 
   background-color: var(--yellow);
-}
-
-.page-header__wrapper {
-  margin: 0 60px;
 }
