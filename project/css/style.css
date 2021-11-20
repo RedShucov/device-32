@@ -204,10 +204,6 @@ body {
   letter-spacing: 0.2em;
 }
 
-.filter-product {
-  color: var(--black);
-}
-
 .filter-product__fieldset {
   margin: 0;
   padding: 0;
