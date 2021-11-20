@@ -235,6 +235,31 @@ body {
   color: var(--black-lite);
 }
 
+.product-list__pagination {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.product-list__pagination-item {
+  opacity: 0.3;
+}
+
+.product-list__pagination-previous .product-list__pagination-link,
+.product-list__pagination-next .product-list__pagination-link {
+  font-weight: 800;
+  font-family: "Raleway", "Arial", sans-serif;
+  color: var(--black);
+  letter-spacing: 0.2em;
+  opacity: 1;
+}
+
+.product-list__pagination-link {
+  color: var(--black-lite);
+  text-decoration: none;
+}
+
 .page-footer {
   color: var(--white);
 }
