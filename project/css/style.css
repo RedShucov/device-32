@@ -208,6 +208,35 @@ body {
   text-decoration: none;
 }
 
+.categories__item-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 160px;
+  background-color: var(--yellow);
+}
+
+.categories__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px;
+}
+
+.categories__item {
+  -ms-flex-preferred-size: 160px;
+      flex-basis: 160px;
+}
+
 .categories__item-title {
   font-weight: 800;
   font-family: "Raleway", "Arial", sans-serif;

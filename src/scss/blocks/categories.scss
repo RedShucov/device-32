@@ -9,6 +9,27 @@
   text-decoration: none;
 }
 
+.categories__item-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 160px;
+
+  background-color: var(--yellow);
+}
+
+.categories__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 40px;
+}
+
+.categories__item {
+  flex-basis: 160px;
+}
+
 .categories__item-title {
   font-weight: 800;
   font-family: "Raleway", "Arial", sans-serif;
