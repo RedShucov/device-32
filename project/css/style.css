@@ -189,6 +189,29 @@ body {
   line-height: 19px;
 }
 
+.filter-product {
+  color: var(--black);
+}
+
+.filter-product__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.filter-product__fieldset-caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+
+.filter-product__fieldset-body {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .page-footer {
   color: var(--white);
 }
