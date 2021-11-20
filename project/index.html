@@ -11,7 +11,7 @@
 
 <body>
 
-  <header class="page-header">
+  <header class="page-header container">
     <h2 class="visually-hidden">Навигация.</h2>
 
     <a class="page-header__logo">
@@ -61,7 +61,7 @@
   <main class="main-page">
     <h1 class="visually-hidden">Магазин электронных товаров device.</h1>
 
-    <section class="slider">
+    <section class="slider container">
       <h2 class="visually-hidden">Обратите внимание.</h2>
 
       <ol class="slider__carousel">
@@ -141,7 +141,7 @@
       </ol>
     </section>
 
-    <section class="categories">
+    <section class="categories container">
       <h2 class="visually-hidden">Наши категории товаров.</h2>
 
       <ul class="categories__list">
@@ -187,39 +187,41 @@
     <section class="services">
       <h2 class="visually-hidden">Наши сервисы услуг.</h2>
 
-      <ul class="services__controls">
-        <li class="services__controls-item services__controls-item--active">
-          Доставка
-        </li>
-        <li class="services__controls-item">
-          Гарантия
-        </li>
-        <li class="services__controls-item">
-          Кредит
-        </li>
-      </ul>
+      <div class="container">
+        <ul class="services__controls">
+          <li class="services__controls-item services__controls-item--active">
+            Доставка
+          </li>
+          <li class="services__controls-item">
+            Гарантия
+          </li>
+          <li class="services__controls-item">
+            Кредит
+          </li>
+        </ul>
 
-      <ul class="services__slider">
-        <li class="services__slide">
-          <h3 class="page-title services__title">Доставка</h3>
-          <p class="services__description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
-            бесплатно! Ведь мы неплохо заработаем поднимая его на ваш этаж.</p>
-        </li>
-        <li class="services__slide">
-          <h3 class="page-title services__title">Гарантия</h3>
-          <p class="services__description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не
-            переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
-        </li>
-        <li class="services__slide">
-          <h3 class="page-title services__title">Кредит</h3>
-          <p class="services__description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
-            наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
-        </li>
-      </ul>
+        <ul class="services__slider">
+          <li class="services__slide">
+            <h3 class="page-title services__title">Доставка</h3>
+            <p class="services__description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
+              бесплатно! Ведь мы неплохо заработаем поднимая его на ваш этаж.</p>
+          </li>
+          <li class="services__slide">
+            <h3 class="page-title services__title">Гарантия</h3>
+            <p class="services__description">Если из-за возгорания купленного у нас товара у вас сгорит дом — не
+              переживайте, мы выдадим вам новый. Товар, не дом, конечно же.</p>
+          </li>
+          <li class="services__slide">
+            <h3 class="page-title services__title">Кредит</h3>
+            <p class="services__description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
+              наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
+          </li>
+        </ul>
+      </div>
 
     </section>
 
-    <section>
+    <section class="container">
       <h2 class="visually-hidden">О компании.</h2>
 
       <section class="about-us">
@@ -269,16 +271,19 @@
     </section>
 
     <section class="subscription">
-      <h2 class="page-title subscription__title">Подпишитесь на рассылку</h2>
+      <div class="container">
+        <h2 class="page-title subscription__title">Подпишитесь на рассылку</h2>
 
-      <p class="subscription__text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками, а
-        также акции, спецпредложения и вот это вот всё.</p>
+        <p class="subscription__text">Еженедельный дайджест с обзорами новинок, длительными тест-драйвами, распаковками,
+          а
+          также акции, спецпредложения и вот это вот всё.</p>
 
-      <form class="subscription__form" action="">
-        <input class="subscription__form-input" type="email" name="" id="" placeholder="Ваш e-mail">
+        <form class="subscription__form" action="">
+          <input class="subscription__form-input" type="email" name="" id="" placeholder="Ваш e-mail">
 
-        <button class="subscription__form-button" type="submit">Подписаться</button>
-      </form>
+          <button class="subscription__form-button" type="submit">Подписаться</button>
+        </form>
+      </div>
     </section>
 
   </main>
