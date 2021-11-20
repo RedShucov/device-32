@@ -1,9 +1,13 @@
 .user-navigation {
+  display: flex;
+  justify-content: space-between;
+
   font-size: 16px;
   line-height: 19px;
 }
 
 .user-navigation__list {
+  display: flex;
   margin: 0;
   padding: 0;
 

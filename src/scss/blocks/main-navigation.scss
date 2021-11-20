@@ -1,4 +1,7 @@
 .main-navigation {
+  display: flex;
+  justify-content: space-between;
+
   font-weight: 800;
   line-height: 21px;
   font-family: "Raleway", "Arial", sans-serif;
@@ -6,10 +9,22 @@
 }
 
 .main-navigation__list {
+  display: flex;
+  max-width: 501px;
   margin: 0;
   padding: 0;
 
   list-style: none;
+}
+
+.main-navigation__list--service {
+  flex-grow: 1;
+
+  column-gap: 20px;
+}
+
+.main-navigation__item:last-of-type {
+  margin-left: auto;
 }
 
 .main-navigation__link {
