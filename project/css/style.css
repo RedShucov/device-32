@@ -54,6 +54,17 @@ body {
   background-color: var(--white);
 }
 
+.page-header {
+  width: 1160px;
+  min-height: 209px;
+  margin: 0 auto;
+  background-color: var(--yellow);
+}
+
+.page-header__wrapper {
+  margin: 0 60px;
+}
+
 .user-navigation {
   font-size: 16px;
   line-height: 19px;
