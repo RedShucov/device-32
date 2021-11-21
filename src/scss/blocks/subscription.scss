@@ -1,0 +1,15 @@
+.subscription {
+  min-height: 421px;
+
+  background-color: #f0f0f0;
+}
+
+.subscription__wrapper {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+}
+
+.subscription__form {
+  grid-column: 1/3;
+}
