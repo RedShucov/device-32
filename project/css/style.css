@@ -55,12 +55,21 @@ body {
 }
 
 .page-header {
+  position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   min-height: 209px;
   margin: 0 auto;
+  margin-top: 40px;
   padding: 0 60px;
+  padding-top: 49px;
+  padding-bottom: 53px;
   background-color: var(--yellow);
+}
+
+.page-header__logo {
+  position: absolute;
+  top: -23px;
 }
 
 .user-navigation {
