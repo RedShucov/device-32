@@ -242,7 +242,24 @@ body {
   font-family: "Raleway", "Arial", sans-serif;
 }
 
+.services {
+  min-height: 388px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(75%, #f0f0f0), color-stop(75%, #ffffff));
+  background: -o-linear-gradient(bottom, #f0f0f0 75%, #ffffff 75%);
+  background: linear-gradient(0deg, #f0f0f0 75%, #ffffff 75%);
+}
+
+.services__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .services__controls {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: 319px;
+      flex-basis: 319px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -258,9 +275,21 @@ body {
 }
 
 .services__slider {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -ms-flex-preferred-size: 560px;
+      flex-basis: 560px;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.services__slide {
+  display: none;
+}
+
+.services__slide--active {
+  display: block;
 }
 
 .about-us__delivery-item {

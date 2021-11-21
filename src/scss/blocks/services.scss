@@ -1,4 +1,16 @@
+.services {
+  min-height: 388px;
+
+  background: linear-gradient(0deg, #f0f0f0 75%, #ffffff 75%);
+}
+
+.services__wrapper {
+  display: flex;
+}
+
 .services__controls {
+  flex-shrink: 0;
+  flex-basis: 319px;
   margin: 0;
   padding: 0;
 
@@ -15,8 +27,18 @@
 }
 
 .services__slider {
+  flex-shrink: 0;
+  flex-basis: 560px;
   margin: 0;
   padding: 0;
 
   list-style: none;
+}
+
+.services__slide {
+  display: none;
+}
+
+.services__slide--active {
+  display: block;
 }
