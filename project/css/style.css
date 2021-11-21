@@ -292,6 +292,22 @@ body {
   display: block;
 }
 
+.about-company {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-company__about-us {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.about-company__contacts {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
 .about-us__delivery-item {
   font-weight: 700;
   line-height: 20px;
