@@ -6,8 +6,10 @@
   margin: 0 auto;
   margin-top: 40px;
   padding: 0 60px;
-  padding-top: 49px;
+  padding-top: 39px;
+  padding-right: 36px;
   padding-bottom: 53px;
+  padding-left: 41px;
 
   background-color: var(--yellow);
 }
@@ -15,10 +17,4 @@
 .page-header__logo {
   position: absolute;
   top: -23px;
-}
-
-.page-header__search-form {
-  position: relative;
-  top: -10px;
-  left: -19px;
 }
