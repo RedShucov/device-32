@@ -262,14 +262,98 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: 547px;
+      flex-basis: 547px;
   margin: 0;
   padding: 0;
   list-style: none;
+  gap: 8px;
+}
+
+.user-navigation__item {
+  position: relative;
+}
+
+.user-navigation__item:first-child {
+  margin-right: auto;
 }
 
 .user-navigation__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 22px;
   color: var(--black);
   text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.user-navigation__link:focus {
+  border: 2px solid #af4fff;
+  outline: none;
+}
+
+.user-navigation__link:hover {
+  opacity: 0.6;
+}
+
+.user-navigation__link:active {
+  border-color: transparent;
+  opacity: 0.3;
+}
+
+.user-navigation__link--log-in::before {
+  content: "";
+  width: 13px;
+  height: 12px;
+  padding-right: 12px;
+  background-image: url(../img/img-decor/interactive/log-in.svg);
+  background-repeat: no-repeat;
+}
+
+.user-navigation__link--compare::before {
+  content: "";
+  width: 10px;
+  height: 12px;
+  padding-right: 10px;
+  background-image: url(../img/img-decor/interactive/compare-products.svg);
+  background-repeat: no-repeat;
+}
+
+.user-navigation__link--cart::before {
+  content: "";
+  width: 16px;
+  height: 14px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  background-image: url(../img/img-decor/interactive/cart.svg);
+  background-repeat: no-repeat;
+}
+
+.user-navigation__cart-counter {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 21px;
+  height: 21px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 17px;
+  background-color: #ffffff;
+  border-radius: 50%;
 }
 
 .main-navigation {
