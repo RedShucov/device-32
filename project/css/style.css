@@ -72,6 +72,12 @@ body {
   top: -23px;
 }
 
+.page-header__search-form {
+  position: relative;
+  top: -10px;
+  left: -19px;
+}
+
 .search-form::before {
   content: "";
   position: absolute;
