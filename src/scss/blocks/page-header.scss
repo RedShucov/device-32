@@ -1,6 +1,9 @@
 .page-header {
   position: relative;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
   min-height: 209px;
   margin: 0 auto;
@@ -9,6 +12,7 @@
   padding-top: 39px;
   padding-right: 36px;
   padding-bottom: 53px;
+  padding-bottom: 75px;
   padding-left: 41px;
 
   background-color: var(--yellow);

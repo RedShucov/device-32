@@ -10,7 +10,6 @@
 
 .main-navigation__list {
   display: flex;
-  max-width: 501px;
   margin: 0;
   padding: 0;
 
@@ -18,17 +17,90 @@
 }
 
 .main-navigation__list--service {
-  flex-grow: 1;
-
-  column-gap: 20px;
-}
-
-.main-navigation__item:last-of-type {
-  margin-left: auto;
+  flex-basis: 543px;
 }
 
 .main-navigation__link {
+  padding-top: 13px;
+  padding-right: 18px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+
   color: var(--black);
   text-decoration: none;
   letter-spacing: 0.2em;
+
+  border: 2px solid transparent;
+  border-radius: 25px;
+}
+
+// стилизация элементов главной навигации
+.main-navigation__link:focus {
+  border-color: #af4fff;
+  outline: none;
+}
+
+.main-navigation__item {
+  position: relative;
+}
+
+// состояния наведения для элементов главной навигацииа
+.main-navigation__list--service .main-navigation__link:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 20px;
+
+  width: 75%;
+  height: 2px;
+
+  background-color: black;
+}
+
+.main-navigation__list--service .main-navigation__link:active {
+  border-color: transparent;
+  opacity: 0.3;
+}
+
+.main-navigation__list--service .main-navigation__item:nth-child(2) {
+  margin-left: -9px;
+}
+
+.main-navigation__list--service .main-navigation__item:last-of-type {
+  margin-left: auto;
+}
+
+// стилизация элемента каталога
+.main-navigation__link--catalog {
+  position: relative;
+}
+
+.main-navigation__link--catalog::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -48px;
+
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+
+  background-image: url(../img/img-decor/interactive/catalog-closed.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+
+// состояния наведения для элемента каталога
+.main-navigation__link--catalog:hover:after {
+  background-image: url(../img/img-decor/interactive/catalog-open.svg);
+  opacity: 1;
+}
+
+.main-navigation__link--catalog:active {
+  border-color: transparent ;
+  opacity: 0.3;
 }
