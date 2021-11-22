@@ -72,6 +72,7 @@ body {
 .page-header__logo {
   position: absolute;
   top: -23px;
+  left: 61px;
 }
 
 .search-form {
