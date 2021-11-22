@@ -78,6 +78,7 @@ body {
   padding-bottom: 75px;
   padding-left: 41px;
   background-color: var(--yellow);
+  row-gap: 34px;
 }
 
 .page-header__logo {
@@ -393,6 +394,9 @@ body {
 .main-navigation__list--service {
   -ms-flex-preferred-size: 543px;
       flex-basis: 543px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 20px;
 }
 
 .main-navigation__link {
@@ -431,11 +435,11 @@ body {
   opacity: 0.3;
 }
 
-.main-navigation__list--service .main-navigation__item:nth-child(2) {
+.main-navigation__list--service .main-navigation__item:nth-child(3n-1) {
   margin-left: -9px;
 }
 
-.main-navigation__list--service .main-navigation__item:last-of-type {
+.main-navigation__list--service .main-navigation__item:nth-child(3n) {
   margin-left: auto;
 }
 
