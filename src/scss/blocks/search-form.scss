@@ -1,3 +1,7 @@
+.search-form {
+  position: relative;
+}
+
 .search-form::before {
   content: "";
   position: absolute;

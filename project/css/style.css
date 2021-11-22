@@ -74,6 +74,10 @@ body {
   top: -23px;
 }
 
+.search-form {
+  position: relative;
+}
+
 .search-form::before {
   content: "";
   position: absolute;
