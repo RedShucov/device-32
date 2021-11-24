@@ -532,6 +532,20 @@ body {
   border-radius: 25px;
 }
 
+.main-navigation__dropdown-link:focus {
+  border-color: var(--purple);
+  outline: none;
+}
+
+.main-navigation__dropdown-link:hover {
+  opacity: 0.6;
+}
+
+.main-navigation__dropdown-link:active {
+  border-color: transperent;
+  opacity: 0.3;
+}
+
 .page-title {
   margin: 0;
   font-weight: 800;
