@@ -589,6 +589,14 @@ body {
           column-gap: 40px;
 }
 
+.slider__slide-body {
+  margin-top: 122px;
+}
+
+.slider__slide-description {
+  margin-top: 28px;
+}
+
 .slider__feature-list {
   display: -webkit-box;
   display: -ms-flexbox;

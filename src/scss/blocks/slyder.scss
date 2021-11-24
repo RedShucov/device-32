@@ -7,8 +7,6 @@
 
 .slider__slide {
   display: none;
-
-  background: linear-gradient(0deg, #ffffff 80%, #ffe17f 0%);
 }
 
 .slider__slide--active {
@@ -17,6 +15,13 @@
   column-gap: 40px;
 }
 
+.slider__slide-body {
+  margin-top: 122px;
+}
+
+.slider__slide-description {
+  margin-top: 28px;
+}
 
 .slider__feature-list {
   display: flex;
