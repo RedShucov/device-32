@@ -546,6 +546,13 @@ body {
   opacity: 0.3;
 }
 
+.main-page__slyder {
+  margin-top: -59px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(78%, #ffffff), color-stop(0%, #ffe17f));
+  background: -o-linear-gradient(bottom, #ffffff 78%, #ffe17f 0%);
+  background: linear-gradient(0deg, #ffffff 78%, #ffe17f 0%);
+}
+
 .page-title {
   margin: 0;
   font-weight: 800;
@@ -571,9 +578,6 @@ body {
 
 .slider__slide {
   display: none;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(80%, #ffffff), color-stop(0%, #ffe17f));
-  background: -o-linear-gradient(bottom, #ffffff 80%, #ffe17f 0%);
-  background: linear-gradient(0deg, #ffffff 80%, #ffe17f 0%);
 }
 
 .slider__slide--active {
