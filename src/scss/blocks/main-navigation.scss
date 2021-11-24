@@ -39,7 +39,7 @@
 
 // стилизация элементов главной навигации
 .main-navigation__link:focus {
-  border-color: #af4fff;
+  border-color: var(--purple);
   outline: none;
 }
 
@@ -57,7 +57,7 @@
   width: 75%;
   height: 2px;
 
-  background-color: black;
+  background-color: var(--black);
 }
 
 .main-navigation__list--service .main-navigation__link:active {
@@ -79,6 +79,7 @@
 // стилизация элемента каталога
 .main-navigation__link--catalog {
   position: relative;
+  z-index: 1;
 }
 
 .main-navigation__link--catalog::after {
@@ -95,13 +96,13 @@
   background-image: url(../img/img-decor/interactive/catalog-closed.svg);
   background-repeat: no-repeat;
   background-position: center;
-  border: 2px solid #000000;
+  border: 2px solid var(--black);
   border-radius: 50%;
   opacity: 0.2;
 }
 
 // состояния наведения для элемента каталога
-.main-navigation__link--catalog:hover:after {
+.main-navigation__item:hover .main-navigation__link--catalog:after {
   background-image: url(../img/img-decor/interactive/catalog-open.svg);
   opacity: 1;
 }
@@ -109,4 +110,58 @@
 .main-navigation__link--catalog:active {
   border-color: transparent ;
   opacity: 0.3;
+}
+
+// Стили для выпадающего меню
+.main-navigation__dropdown-menu {
+  position: absolute;
+  left: -41px;
+
+  display: none;
+  box-sizing: border-box;
+  width: 1160px;
+  min-height: 180px;
+  margin-top: 15px;
+  padding-top: 33px;
+  padding-right: 18px;
+  padding-bottom: 12px;
+  padding-left: 45px;
+
+  column-gap: 14px;
+
+  background-color: var(--yellow);
+}
+
+.main-navigation__item:hover .main-navigation__dropdown-menu,
+.main-navigation__item:focus-within .main-navigation__dropdown-menu {
+  display: flex;
+}
+
+.main-navigation__dropdown-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Rubik", "Arial", sans-serif;
+  text-transform: initial;
+
+  row-gap: 18px;
+}
+
+.main-navigation__dropdown-menu .main-navigation__dropdown-list:last-of-type {
+  margin-left: 15px;
+}
+
+.main-navigation__dropdown-link {
+  padding: 5px 14px;
+
+  color: var(--black);
+  text-decoration: none;
+
+  border: 2px solid transparent;
+  border-radius: 25px;
 }
