@@ -16,15 +16,13 @@
 
 @import "blocks/main-navigation.scss";
 
-// main-page
-
-@import "blocks/main-page.scss";
-
 // everyplace
 
 @import "blocks/page-title.scss";
 
 @import "blocks/product-title.scss";
+
+@import "blocks/button.scss";
 
 @import "blocks/slyder.scss";
 
@@ -47,6 +45,10 @@
 @import "blocks/filter-product.scss";
 
 @import "blocks/product-list.scss";
+
+// main-page
+
+@import "blocks/main-page.scss";
 
 // footer
 
