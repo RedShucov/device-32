@@ -590,6 +590,32 @@ body {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.button:focus::before {
+  background: #af4fff;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover::before {
+  height: 50px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.button:active::before {
+  background: #ffe17f;
 }
 
 .slider {

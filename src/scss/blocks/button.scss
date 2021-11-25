@@ -27,4 +27,28 @@
 
   background: #ffe17f;
   transform: translateY(-50%);
+
+  transition: 0.5s;
+}
+
+.button:focus::before {
+  background: #af4fff;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover::before {
+  height: 50px;
+
+  transition: 0.3s;
+}
+
+.button:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.button:active::before {
+  background: #ffe17f;
 }
