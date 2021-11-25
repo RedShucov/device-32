@@ -99,3 +99,38 @@
   border-color: var(--black);
   opacity: 0.3;
 }
+
+.slider__controls {
+  position: absolute;
+  top: 241px;
+  left: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  width: 542px;
+}
+
+.slider__controls-button {
+  width: 40px;
+  height: 80px;
+  padding: 0;
+
+  background-color: var(--white);
+  border: 2px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.slider__controls-button:focus {
+  border-color: #af4fff;
+  outline: none;
+}
+
+.slider__controls-button:hover {
+  opacity: 0.6;
+}
+
+.slider__controls-button:active {
+  border-color: transparent;
+  opacity: 0.3;
+}
