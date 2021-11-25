@@ -1,3 +1,7 @@
+.slider {
+  position: relative;
+}
+
 .slider__carousel {
   margin: 0;
   padding: 0;
@@ -23,10 +27,16 @@
   margin-top: 28px;
 }
 
+.slider__slide-link {
+  max-width: 220px;
+  margin-top: 50px;
+}
+
 .slider__feature-list {
   display: flex;
+  margin-top: 69px;
 
-  column-gap: 20px;
+  column-gap: 21px;
 }
 
 .slider__feature-wrapper {
@@ -35,6 +45,8 @@
 }
 
 .slider__feature-name {
+  margin-top: 11px;
+
   font-size: 16px;
 }
 
@@ -43,4 +55,47 @@
 
   font-size: 36px;
   color: var(--black);
+}
+
+.slider__pagination {
+  position: absolute;
+  top: 349px;
+  right: 60px;
+
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  column-gap: 22px;
+}
+
+.slider__pagination-buttom {
+  box-sizing: border-box;
+  width: 12px;
+  height: 12px;
+
+  background-color: white;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider__pagination-buttom--active {
+  background-color: var(--black);
+}
+
+.slider__pagination-buttom:focus {
+  background-color: var(--white);
+  border-color: #af4fff;
+  outline: none;
+}
+
+.slider__pagination-buttom:hover {
+  opacity: 0.6;
+}
+
+.slider__pagination-buttom:active {
+  border-color: var(--black);
+  opacity: 0.3;
 }
