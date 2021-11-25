@@ -778,6 +778,7 @@ body {
 }
 
 .categories__item-body {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -790,6 +791,22 @@ body {
   width: 160px;
   height: 160px;
   background-color: var(--yellow);
+}
+
+.categories__item-body img {
+  position: absolute;
+}
+
+.categories__item-body--monopods img {
+  bottom: 0;
+}
+
+.categories__item-body--cameras img {
+  right: 25%;
+}
+
+.categories__item-body--quadcopters img {
+  top: 31%;
 }
 
 .categories__list {
@@ -807,8 +824,36 @@ body {
 }
 
 .categories__item-title {
+  margin-top: 34px;
   font-weight: 800;
   font-family: "Raleway", "Arial", sans-serif;
+}
+
+.categories__item-link:hover .categories__item-body {
+  background-color: #ffc700;
+}
+
+.categories__item-link:focus .categories__item-body {
+  outline: 5px solid #af4fff;
+}
+
+.categories__item-link:focus .categories__item-title,
+.categories__item-link:focus {
+  color: #af4fff;
+  outline: none;
+}
+
+.categories__item-link:active img {
+  opacity: 0.3;
+}
+
+.categories__item-link:active .categories__item-body {
+  outline: none;
+}
+
+.categories__item-link:active .categories__item-title {
+  color: var(--black);
+  opacity: 0.3;
 }
 
 .services {
@@ -1003,6 +1048,10 @@ body {
   background: -webkit-gradient(linear, left bottom, left top, color-stop(78%, #ffffff), color-stop(0%, #ffe17f));
   background: -o-linear-gradient(bottom, #ffffff 78%, #ffe17f 0%);
   background: linear-gradient(0deg, #ffffff 78%, #ffe17f 0%);
+}
+
+.main-page__categories {
+  margin-top: 69px;
 }
 
 .page-footer {
