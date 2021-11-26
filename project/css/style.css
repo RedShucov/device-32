@@ -826,7 +826,7 @@ body {
 }
 
 .categories__item-title {
-  margin-top: 34px;
+  padding-top: 34px;
   font-weight: 800;
   font-family: "Raleway", "Arial", sans-serif;
 }
