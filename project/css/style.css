@@ -445,14 +445,15 @@ body {
 
 .main-navigation__link--catalog {
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  padding-right: 105px;
 }
 
 .main-navigation__link--catalog::after {
   content: "";
   position: absolute;
   top: -2px;
-  right: -48px;
+  right: 39px;
   display: block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -479,6 +480,7 @@ body {
 .main-navigation__dropdown-menu {
   position: absolute;
   left: -41px;
+  z-index: 1;
   display: none;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
