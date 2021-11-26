@@ -1047,9 +1047,9 @@ body {
 
 .main-page__slyder {
   margin-top: -59px;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(78%, #ffffff), color-stop(0%, #ffe17f));
-  background: -o-linear-gradient(bottom, #ffffff 78%, #ffe17f 0%);
-  background: linear-gradient(0deg, #ffffff 78%, #ffe17f 0%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(73%, #ffffff), color-stop(0%, #ffe17f));
+  background: -o-linear-gradient(bottom, #ffffff 73%, #ffe17f 0%);
+  background: linear-gradient(0deg, #ffffff 73%, #ffe17f 0%);
 }
 
 .main-page__categories {
