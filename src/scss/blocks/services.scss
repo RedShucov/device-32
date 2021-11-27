@@ -9,21 +9,43 @@
 }
 
 .services__controls {
-  flex-shrink: 0;
-  flex-basis: 319px;
+  display: flex;
+  flex-basis: 277px;
+  flex-direction: column;
   margin: 0;
   padding: 0;
+  padding-top: 79px;
+  padding-bottom: 72px;
 
   list-style: none;
   line-height: 21px;
   font-family: "Raleway", "Arial", sans-serif;
-  color: var(--black);
   text-transform: uppercase;
   letter-spacing: 0.2em;
+
+  border-right: 8px solid black;
+
+  row-gap: 24px;
+}
+
+.services__controls-item {
+  box-sizing: border-box;
+  min-height: 40px;
+  padding-top: 9px;
+  padding-left: 2px;
+}
+
+.services__controls-item a {
+  display: inline-block;
+  min-width: 160px;
+
+  text-align: center;
 }
 
 .services__controls-item--active {
   color: var(--yellow);
+
+  background-color: black;
 }
 
 .services__slider {
