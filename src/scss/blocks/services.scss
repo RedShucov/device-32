@@ -77,17 +77,22 @@
 
 .services__slider {
   flex-shrink: 0;
-  flex-basis: 560px;
+  flex-basis: 497px;
   margin: 0;
   padding: 0;
+  padding-top: 69px;
+  padding-left: 115px;
 
   list-style: none;
 }
-
 .services__slide {
   display: none;
 }
 
 .services__slide--active {
   display: block;
+}
+
+.services__description {
+  margin-top: 34px;
 }

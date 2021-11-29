@@ -942,10 +942,12 @@ body {
 .services__slider {
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  -ms-flex-preferred-size: 560px;
-      flex-basis: 560px;
+  -ms-flex-preferred-size: 497px;
+      flex-basis: 497px;
   margin: 0;
   padding: 0;
+  padding-top: 69px;
+  padding-left: 115px;
   list-style: none;
 }
 
@@ -955,6 +957,10 @@ body {
 
 .services__slide--active {
   display: block;
+}
+
+.services__description {
+  margin-top: 34px;
 }
 
 .about-company {
