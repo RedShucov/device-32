@@ -76,17 +76,20 @@
 }
 
 .services__slider {
+  flex: 1;
   flex-shrink: 0;
-  flex-basis: 497px;
+  flex-basis: 693px;
   margin: 0;
   padding: 0;
-  padding-top: 69px;
-  padding-left: 115px;
 
   list-style: none;
 }
+
 .services__slide {
   display: none;
+  padding-top: 69px;
+  padding-bottom: 1px;
+  padding-left: 115px;
 }
 
 .services__slide--active {
@@ -94,5 +97,27 @@
 }
 
 .services__description {
+  max-width: 497px;
   margin-top: 34px;
+}
+
+.services__slide--delivery {
+  background-image: url(../../img/img-decor/service-slider/service-delivery.svg);
+  background-repeat: no-repeat;
+  background-position-x: right 66px;
+  background-position-y: bottom 14px;
+}
+
+.services__slide--guarantee {
+  background-image: url(../../img/img-decor/service-slider/service-warranty.svg);
+  background-repeat: no-repeat;
+  background-position-x: right 46px;
+  background-position-y: bottom 7px;
+}
+
+.services__slide--credit {
+  background-image: url(../../img/img-decor/service-slider/service-credit.svg);
+  background-repeat: no-repeat;
+  background-position-x: right 70px;
+  background-position-y: bottom 14px;
 }
