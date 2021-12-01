@@ -989,6 +989,65 @@ body {
   background-position-y: bottom 14px;
 }
 
+.rare-delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1160px;
+  height: 100px;
+}
+
+.rare-delivery__button {
+  position: relative;
+  width: 100%;
+  padding: 0;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 23px;
+  font-family: Raleway;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: navajowhite;
+}
+
+.rare-delivery__text {
+  display: block;
+  padding-bottom: 2px;
+  padding-left: 5px;
+}
+
+.rare-delivery__icon {
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 125px;
+  height: 100%;
+  background: #ffe17f;
+}
+
+.rare-delivery__icon-img {
+  margin: auto;
+}
+
+.rare-delivery__info {
+  position: absolute;
+  top: 28px;
+  right: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background: rgba(220, 220, 220, 0.5);
+  border-radius: 50%;
+}
+
+.rare-delivery__info-img {
+  margin: auto;
+}
+
 .about-company {
   display: -webkit-box;
   display: -ms-flexbox;
