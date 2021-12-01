@@ -54,6 +54,22 @@ body {
   background-color: var(--white);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+}
+
 .page-header {
   position: relative;
   display: -webkit-box;
@@ -1200,6 +1216,10 @@ body {
   margin-top: 82px;
 }
 
+.main-page__rare-delivery {
+  margin-top: 89px;
+}
+
 .page-footer {
   color: var(--white);
   background-color: var(--black-lite);
@@ -1254,20 +1274,4 @@ body {
 .page-footer__cantacts-phonenumber {
   font-size: 16px;
   color: var(--white);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  border: 0;
-  clip: rect(0 0 0 0);
-}
-
-.container {
-  width: 1160px;
-  margin: 0 auto;
 }
