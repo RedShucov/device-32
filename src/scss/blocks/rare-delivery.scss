@@ -3,6 +3,7 @@
   width: 1160px;
   height: 100px;
 }
+
 .rare-delivery__button {
   position: relative;
 
@@ -16,7 +17,9 @@
   text-transform: uppercase;
   letter-spacing: 0.2em;
 
-  border: navajowhite;
+  background-color: var(--grey-extra-lite);
+  border: none;
+  cursor: pointer;
 }
 
 .rare-delivery__text {
@@ -33,7 +36,7 @@
   width: 125px;
   height: 100%;
 
-  background: #ffe17f;
+  background: var(--yellow);
 }
 
 .rare-delivery__icon-img {
@@ -55,4 +58,32 @@
 
 .rare-delivery__info-img {
   margin: auto;
+}
+
+// состояния наведения
+
+.rare-delivery__button:focus {
+  outline: 5px solid var(--purple);
+}
+
+.rare-delivery__button:hover {
+  background-color: var(--grey-lite);
+}
+
+.rare-delivery__button:hover .rare-delivery__icon {
+  background-color: var(--yellow-dark);
+}
+
+.rare-delivery__button:hover .rare-delivery__info {
+  background-color: var(--grey);
+}
+
+.rare-delivery__button:active {
+  outline: none;
+}
+
+.rare-delivery__button:active .rare-delivery__text,
+.rare-delivery__button:active .rare-delivery__icon-img,
+.rare-delivery__button:active .rare-delivery__info-img {
+  opacity: 0.3;
 }
