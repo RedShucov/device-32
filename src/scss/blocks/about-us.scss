@@ -1,4 +1,38 @@
+.about-us__delivery-list {
+  margin: 0;
+  margin-top: 75px;
+  padding: 0;
+}
+
 .about-us__delivery-item {
+  position: relative;
+
+  margin-bottom: 20px;
+  padding-left: 35px;
+
+  list-style: none;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--black);
+}
+
+.about-us__delivery-item::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 1px;
+
+  display: block;
+  width: 8px;
+  height: 8px;
+
+  background-color: var(--yellow-dark);
+  border-radius: 50%;
+}
+
+.about-us__delivery-item:last-child {
+  margin-bottom: 0;
+
   font-weight: 700;
   line-height: 20px;
   color: var(--black);
