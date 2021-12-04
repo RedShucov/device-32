@@ -1114,12 +1114,32 @@ body {
       flex-basis: 560px;
 }
 
+.about-company__title::before {
+  content: "";
+  position: absolute;
+  top: -48px;
+  display: block;
+  width: 80px;
+  height: 7px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  background-color: black;
+}
+
+.about-company__title {
+  position: relative;
+}
+
 .about-company__text {
   margin-top: 46px;
 }
 
 .about-us .about-company__text:nth-of-type(2) {
   margin-top: 30px;
+}
+
+.main-page__about-company {
+  margin-top: 146px;
 }
 
 .about-us__delivery-list {
