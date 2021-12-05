@@ -1177,6 +1177,12 @@ body {
   color: var(--black);
 }
 
+.about-us__link {
+  display: inline-block;
+  min-width: 260px;
+  margin-top: 73px;
+}
+
 .contacts__subtitle {
   margin-top: 30px;
   margin-bottom: 0;
@@ -1199,6 +1205,12 @@ body {
 .contacts__working-hours {
   max-width: 220px;
   margin-top: 15px;
+}
+
+.contacts__link {
+  display: inline-block;
+  min-width: 260px;
+  margin-top: 50px;
 }
 
 .subscription {
