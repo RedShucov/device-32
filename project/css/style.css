@@ -939,6 +939,7 @@ body {
   text-align: center;
   color: var(--black);
   text-decoration: none;
+  outline: none;
 }
 
 .services__controls-link::before {
@@ -953,6 +954,14 @@ body {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.services__controls-link:focus::before {
+  background-color: var(--purple);
+}
+
+.services__controls-link:hover::before {
+  height: 40px;
 }
 
 .services__slider {

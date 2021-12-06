@@ -59,6 +59,8 @@
   text-align: center;
   color: var(--black);
   text-decoration: none;
+
+  outline: none;
 }
 
 .services__controls-link::before {
@@ -73,6 +75,14 @@
 
   background-color: var(--yellow-dark);
   transform: translateY(-50%);
+}
+
+.services__controls-link:focus::before {
+  background-color: var(--purple);
+}
+
+.services__controls-link:hover::before {
+  height: 40px;
 }
 
 .services__slider {
